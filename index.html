@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Dupont | Frontend Designer and Developer</title>
+    <link rel="icon" href="images/titleImage.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="navBar">
+        <nav class="flexRow justify-around stay w50">
+            <p><a href="/index.html">Home</a></p>
+            <p><a href="/resume.html">Resume</a></p>
+            <p><a href="/gallery.html">Gallery</a></p>
+            <p href="#contact">Contact</p>
+        </nav>
+        <div class="right w10 flexRow stay justify-around">
+            <img src="images/GH.png" class="img-navIcon" alt="Github Logo">
+            <img src="images/linkedIn.png" class="img-navIcon" alt="LinkedIn Logo">
+        </div>
+    </header>
+    <section class="bgImage">
+        <div class="flexRow align-center justify-center u-pt20">
+            <h1><strong>Ben Dupont:</strong> </h1>
+        </div>
+        <div class="hero flexRow align-center justify-around">
+            <div class="design-section  u-plr20 w50">
+                <h1 class="ta-center marker-font large design">Designer</h1>
+                <p class="mw600 u-m0auto">As a web designer, I utilize Adobe Suite for image editing in Photoshop and vector graphics in Illustrator. Figma is my preferred tool for collaborative UI/UX design work. Its cloud-based platform enables seamless teamwork and version control. These tools allow me to create engaging web experiences that prioritize user needs.</p>
+                <div class="flexRow align-center justify-center">
+                    <div class="modalWindow1 hidden">
+                        <button class="close-modal1">&times;</button>
+                        <p class="u-mb0">Utilizing Figma, Sketch, as well as the Adobe Suite of products, I help design teams and clients create beautiful images and wireframes for their products. Well versed in working with pre-approved materials, as well as creating them from scratch. Also have experience in video and animation using After Effects</p>
+                    </div>
+                    <div class=" design grid-container u-mt20">
+                        <div class="top-row">
+                            <div class="grid-item"><img src="images/designIcons/figma.png" class="design-icon" alt="figma logo"></div>
+                            <div class="grid-item"><img src="images/designIcons/sketch.png" class="design-icon" alt="sketch logo"></div>
+                            <div class="grid-item"><img src="images/designIcons/illustrator.png" class="design-icon" alt="illustrator logo"></div>
+                        </div>
+                        <div class="bottom-row">
+                            <div class="grid-item"><img src="images/designIcons/photoshop.png" class="design-icon" alt="photoshop logo"></div>
+                            <div class="grid-item"><img src="images/designIcons/after-effects.png" class="design-icon" alt="after effects logo"></div>
+                            <div class="grid-item"><img src="images/designIcons/indesign.png" class="design-icon" alt="indesign logo"></div>
+                            <div class="grid-item"><img src="images/designIcons/xd.png" class="design-icon" alt="xd logo"></div>
+                        </div>
+                    </div>
+                    <div class="overlay hidden"></div>
+                </div>
+            </div>
+            <div class="vlLine h100">&nbsp;</div>
+            <div class="coding-section u-plr20 w50">
+                <h1 class="ta-center code-font large u-mt20">&lt;DEVELOPER&gt;</h1>
+                <div class="modalWindow2 hidden">
+                    <button class="close-modal2">&times;</button>
+                    <p class="u-mb0">Utilizing HTML5, CSS3, and JavaScript I bring the wireframes to life on the web. Well versed in accesibility, responsiveness, and best practices. </p>
+                </div>
+                <div class="flexRow stay justify-center align-center u-mt20 u-mb50">
+                    <img src="images/codeIcons/html.png" class="code-icon" alt="html logo">
+                    <img src="images/codeIcons/css.png" class="code-icon" alt="css logo">
+                    <img src="images/codeIcons/JS.png" class="code-icon" alt="JS logo">
+                </div>
+                <div class="overlay hidden"></div>
+                <p class="mw600 u-m0auto">Front-end web developer with a passion for crafting responsive and user-friendly websites. Proficient in HTML5, CSS3, and JavaScript, with a keen eye for detail in translating wireframes into pixel-perfect, cross-browser compatible web pages. Skilled in optimizing website performance and accessibility. Collaborative team player adept at working with designers and backend developers to deliver seamless web experiences.</p>
+            </div>
+        </div>
+        <!--
+        <div class="middle u-mt20">
+            <p id="bounceTxt" class="ta-center text-shadow">Scroll down to see some of my work</p>
+        </div>
+        -->
+       <div class="u-plr20 u-pb100 u-mt50 flexRow align-center justify-around">
+            <div class="projectCard u-mb10">
+                <h4 class="ta-center">Covid Elasticity Calculator</h4>
+                <p class="ta-center">You can view the Github Repo and the live link below:</p>
+                <div class="flexRow stay justify-center align-center u-mb10">
+                    <a href="https://github.com/dupbd/CovidElasticityCalc" target="_blank"><img src="images/GH.png" class="img-navIcon" alt="Github Logo"></a>
+                    <a href="https://dupbd.github.io/CovidElasticityCalc/index.html" target="_blank"><img src="images/link.png" class="img-navIcon" alt="Link Logo"></a>
+                </div>
+                <p class="ta-center u-mb0">This project shows death elasticity for COVID-19 between any 2 dates within the range. Built with Vanilla JS. Main learnings on this project were validating user input as well as formatting it correctly, and working with 2 large arrays where each index of array 1 corresponded to an index of array 2.</p>
+            </div>
+            <div class="projectCard u-mb10">
+                <h4 class="ta-center">Professional Projects</h4>
+                <p class="ta-center">Click below to view the gallary of my current work</p>
+                <div class="flexRow stay justify-center align-center u-mb10">
+                    <a href="#gallery"><img src="images/link.png" class="img-navIcon" alt="Link Logo"></a>
+                </div>
+                <p class="ta-center u-mb0">In my current role I work with pharmacutical companies creating digital ad campaigns that run on our website. This includes both onsite web assets as well as emails. All emails and onsite assets are responsive to any screen size, any web browser, and any email client.</p>
+            </div>
+       </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
