@@ -69,7 +69,7 @@ body{
     border-right: 5px dashed #555555;
 }
 .bgImage {
-    background-image: url(../images/background.jpg);
+    background-image: url(https://dupbd.github.io/hosting/background.jpg);
     background-size: cover;
     background-repeat: none;
     height: 100% !important;
