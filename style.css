@@ -10,12 +10,15 @@ body{
 }
 /*TOP NAVIGATION*/
 .navBar {
-    background-color: #000;
+    background-color: #0C1821;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
     
+}
+.activeLink, .navLink:hover {
+    text-decoration: underline;
 }
 .navBar a {
     color: #FFF;
@@ -248,6 +251,20 @@ body{
     max-width: 200px;
 }
 
+/*GIF THING */
+.img-homer {
+    max-width: 300px;
+    margin: 20px auto;
+}
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+
 
 /*TYPOGRAPHY*/
 
@@ -403,6 +420,11 @@ body{
 .u-pb100 {
     padding-bottom: 100px;
 }
+/* COLORS */
+.red {
+    color: red;
+}
+
 
 /*BOUNCE*/
 em {
@@ -433,3 +455,10 @@ em {
 }
 }
 
+/*VIDEOS*/
+@media only screen and (max-width: 600px) {
+    .video {
+        width: 350px !important;
+        height: 380px !important;
+    }
+}

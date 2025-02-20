@@ -15,10 +15,10 @@
 <body>
     <header class="navBar">
         <nav class="flexRow justify-around stay w50">
-            <p><a href="index.html">Home</a></p>
-            <p><a href="resume.html">Resume</a></p>
-            <p><a href="gallery.html">Gallery</a></p>
-            <p href="#contact">Contact</p>
+            <p class="navLink"><a href="index.html">Home</a></p>
+            <p class="navLink"><a href="resume.html">Resume</a></p>
+            <p class="navLink  activeLink"><a href="gallery.html">Gallery</a></p>
+            <!--<p class="navLink"><a href="contact.html">Contact</a></p>-->
         </nav>
         <div class="right w10 flexRow stay justify-around">
             <img src="images/GH.png" class="img-navIcon" alt="Github Logo">
@@ -28,21 +28,34 @@
 
     <div class="bgImage">
         <div class="u-pad20">
-            <h1 class="ta-center marker-font u-mb20"><strong>Custom Creation Examples</strong></h1>
+            <h1 class="ta-center marker-font u-mb10"><strong>Custom Creation Examples</strong></h1>
+            <p class="ta-center red u-mb20 code-font"><i><u>Hover to see full scrolls and animations</u></i></p>
             <div class="flexRow justify-around align-center u-m0auto">
-                <img src="images/gallery/arexvydwu.png" class="img-galleryDMU" alt="">
-                <img src="images/gallery/hadlimadmu.png" class="img-galleryDMU" alt="">
-                <img src="images/gallery/lag.png" class="img-galleryDMU" alt="">
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/arexvy.mp4" type="video/mp4">
+                </video>
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/had.mp4" type="video/mp4">
+                </video>
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/lag.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="u-mb20"></div>
             <div class="flexRow justify-around align-center u-m0auto">
-                <img src="images/gallery/lag.png" class="img-galleryDMU" alt="">
-                <img src="images/gallery/nex.png" class="img-galleryDMU" alt="">
-                <img src="images/gallery/hadlimadmu.png" class="img-galleryDMU" alt="">
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/ocr.mp4" type="video/mp4">
+                </video>
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/rep.mp4" type="video/mp4">
+                </video>
+                <video class="video" width="400" height="400" loop>
+                    <source src="/images/gallery_vids/rep2.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
 
-
+    <script src="video.js"></script>
 </body>
 
