@@ -75,7 +75,7 @@ body{
     background-image: url(https://dupbd.github.io/hosting/background.jpg);
     background-size: cover;
     background-repeat: none;
-    height: 100% !important;
+    height: 100vh !important;
 }
 @media only screen and (max-width: 600px) {
     .bgImage {
@@ -250,6 +250,7 @@ body{
 .img-galleryEmail {
     max-width: 200px;
 }
+
 
 /*GIF THING */
 .img-homer {
